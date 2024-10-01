@@ -1,4 +1,4 @@
-# Titanic Survival Prediction Problem
+# Titanic Survival Prediction 
 
 In this problem, you'll use data science and machine learning techniques to predict the survival of passengers on the Titanic. Below is a step-by-step guide to approach the problem.
 
@@ -87,3 +87,6 @@ Decision Trees can handle non-linear relationships and are another good choice f
 
 ### 8.1. Hyperparameter Tuning
 Optimize the hyperparameters of the Decision Tree model using techniques like GridSearchCV to improve performance.
+
+### 8.2. Confusion Matrix
+You can use a heatmap to visualize the confusion matrix for the Logistic Regression model. This will give you a clearer view of how well the model predicted the classes.
