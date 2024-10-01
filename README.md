@@ -87,15 +87,3 @@ Decision Trees can handle non-linear relationships and are another good choice f
 
 ### 8.1. Hyperparameter Tuning
 Optimize the hyperparameters of the Decision Tree model using techniques like GridSearchCV to improve performance.
-
-### 8.2. Feature Scaling (Optional)
-For some algorithms like Logistic Regression, you may achieve better performance by scaling features.
-
----
-
-## Step 9: Conclusion
-Compare the results of the Logistic Regression and Decision Tree models to determine which one performs better. You can deploy the best-performing model or continue improving it with advanced models like Random Forests or XGBoost.
-
----
-
-By following these steps, you'll be able to clean and preprocess your data, build models, and evaluate their performance effectively.
