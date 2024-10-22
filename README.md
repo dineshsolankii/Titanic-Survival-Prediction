@@ -1,11 +1,11 @@
-# Titanic Survival Prediction 
+# 🚢 Titanic Survival Prediction
 
-In this problem, you'll use data science and machine learning techniques to predict the survival of passengers on the Titanic. Below is a step-by-step guide to approach the problem.
+In this project, you'll apply data science and machine learning techniques to predict the survival of passengers on the Titanic. Below is a step-by-step guide to approach the problem.
 
-## Step 1: Load and Explore the Dataset
+## 📊 Step 1: Load and Explore the Dataset
 
 ### 1.1. Import Libraries
-You’ll need libraries for data manipulation, visualization, and machine learning.
+You'll need libraries for data manipulation, visualization, and machine learning.
 
 ### 1.2. Load the Dataset
 Download the dataset from Kaggle (Titanic Dataset) and load it into a Pandas DataFrame.
@@ -18,7 +18,7 @@ Explore the structure of the dataset to understand its contents:
 
 ---
 
-## Step 2: Data Cleaning and Preprocessing
+## 🧹 Step 2: Data Cleaning and Preprocessing
 
 ### 2.1. Handle Missing Data
 Some columns, like Age, Cabin, and Embarked, may have missing values. Handle them appropriately:
@@ -34,7 +34,7 @@ Drop irrelevant features such as Name, Ticket, and PassengerId, which are not us
 
 ---
 
-## Step 3: Exploratory Data Analysis (EDA)
+## 🔍 Step 3: Exploratory Data Analysis (EDA)
 
 ### 3.1. Visualize Survival Rate by Gender
 Visualize survival rates based on gender using a bar plot.
@@ -47,7 +47,7 @@ Create histograms to visualize the age distribution of survivors and non-survivo
 
 ---
 
-## Step 4: Feature Selection
+## 🔑 Step 4: Feature Selection
 Select the final set of features that are most relevant for prediction:
 - Pclass (Passenger Class)
 - Sex
@@ -59,12 +59,12 @@ Select the final set of features that are most relevant for prediction:
 
 ---
 
-## Step 5: Train-Test Split
+## ✂️ Step 5: Train-Test Split
 Split the dataset into training and testing sets to evaluate the model's performance. The target variable is 'Survived', while the features include the other columns from the dataset.
 
 ---
 
-## Step 6: Model Building
+## 🛠️ Step 6: Model Building
 
 ### 6.1. Logistic Regression
 Start with Logistic Regression, a simple and effective model for binary classification problems.
@@ -74,19 +74,22 @@ Decision Trees can handle non-linear relationships and are another good choice f
 
 ---
 
-## Step 7: Model Evaluation
+## 📈 Step 7: Model Evaluation
 
 ### Evaluate both models using common metrics:
-- Accuracy score for both Logistic Regression and Decision Tree models.
-- Confusion Matrix to examine the true positives, true negatives, false positives, and false negatives.
-- Classification Report to provide precision, recall, f1-score, and support for each model.
+- **Accuracy Score** for both Logistic Regression and Decision Tree models.
+- **Confusion Matrix** to examine the true positives, true negatives, false positives, and false negatives.
+- **Classification Report** to provide precision, recall, f1-score, and support for each model.
 
 ---
 
-## Step 8: Model Optimization
+## ⚙️ Step 8: Model Optimization
 
 ### 8.1. Hyperparameter Tuning
 Optimize the hyperparameters of the Decision Tree model using techniques like GridSearchCV to improve performance.
 
 ### 8.2. Confusion Matrix
 You can use a heatmap to visualize the confusion matrix for the Logistic Regression model. This will give you a clearer view of how well the model predicted the classes.
+
+---
+
